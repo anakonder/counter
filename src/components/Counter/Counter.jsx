@@ -27,11 +27,14 @@ export class Counter extends Component {
 
     render() {
     return (
-        <div>
-            <h1>Counter</h1>
+        <div className={css.counterContainer}>
+            <h1 className={css.counterTitle}>Counter</h1>
             <p>{this.state.value}</p>
-            <button className={css.btn} type="button" onClick={this.handleChangeIncr}>+</button>
-            <button className={css.btn} type="button" onClick={this.handleChangeDecr}>-</button>
+            <div className={css.btnContainer}>
+                <button className={`${css.btn} ${css.increment}`} type="button" onClick={this.handleChangeIncr}>+</button>
+                <button className={`${css.btn} ${css.decrement}`} type="button" onClick={this.handleChangeDecr}>-</button>
+            </div>
+
             <button className={css.btn} type="button" onClick={this.HandleChangeValue}>Enter value counter</button>
         </div>
     )
