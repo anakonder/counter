@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/counter-modal/static/css/main.79523024.css",
+    "main.js": "/counter-modal/static/js/main.572c6545.js",
+    "index.html": "/counter-modal/index.html",
+    "main.79523024.css.map": "/counter-modal/static/css/main.79523024.css.map",
+    "main.572c6545.js.map": "/counter-modal/static/js/main.572c6545.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79523024.css",
+    "static/js/main.572c6545.js"
+  ]
+}
