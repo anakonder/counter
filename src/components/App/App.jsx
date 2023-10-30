@@ -13,8 +13,7 @@ function App() {
         <Header/>
         <Counter/>
         <Modal/>
-      </div>
-      
+      </div>      
     </div>
   );
 }
