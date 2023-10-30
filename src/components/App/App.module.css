@@ -1,0 +1,6 @@
+.appContainer {
+    width: auto;
+    height: 100%;
+    background-color: lightgray;
+    border: 1px solid red;
+}
