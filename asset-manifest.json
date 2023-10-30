@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/counter-modal/static/css/main.3d7e8e43.css",
-    "main.js": "/counter-modal/static/js/main.c12a88d8.js",
+    "main.css": "/counter-modal/static/css/main.490b3a9c.css",
+    "main.js": "/counter-modal/static/js/main.cd7cc77d.js",
     "index.html": "/counter-modal/index.html",
-    "main.3d7e8e43.css.map": "/counter-modal/static/css/main.3d7e8e43.css.map",
-    "main.c12a88d8.js.map": "/counter-modal/static/js/main.c12a88d8.js.map"
+    "main.490b3a9c.css.map": "/counter-modal/static/css/main.490b3a9c.css.map",
+    "main.cd7cc77d.js.map": "/counter-modal/static/js/main.cd7cc77d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d7e8e43.css",
-    "static/js/main.c12a88d8.js"
+    "static/css/main.490b3a9c.css",
+    "static/js/main.cd7cc77d.js"
   ]
 }
