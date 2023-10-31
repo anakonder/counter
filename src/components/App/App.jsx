@@ -15,13 +15,18 @@ class App extends Component{
   hendleModadalLoginToggle = () => {
     this.setState({isModalLoginOpen: true})    
   }
+
+  closeModalLogin = () => {
+    this.setState({isModalLoginOpen: false})
+  }
+
   render() {
     return (
       <div className="App">
         <div className={css.appContainer}>
           <Header hendleModadalLoginToggle={this.hendleModadalLoginToggle}/>
           <Counter/>
-          {this.state.isModalLoginOpen && <Modal/>}
+          {this.state.isModalLoginOpen && <Modal closeModalLogin={this.closeModalLogin}/>}
         </div>      
       </div>
     );

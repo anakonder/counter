@@ -1,6 +1,6 @@
 import css from './Modal.module.css'
 
-export const Modal = () => {
+export const Modal = ({closeModalLogin}) => {
     return(
         <div className={css.modalWraper}>
             <div className={css.modalBody}>
