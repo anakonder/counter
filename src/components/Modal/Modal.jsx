@@ -19,6 +19,7 @@ export const Modal = ({closeModalLogin}) => {
                         <input className={css.loginInput} type="password" name='passwordRepeat'/>
                     </label>
                     <button className={css.loginBtn}>Submit</button>
+                    <p>asdvfsddgs</p>
                 </form>
             </div>
         </div>
