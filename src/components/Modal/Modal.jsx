@@ -7,12 +7,16 @@ export const Modal = () => {
                 <form className={css.loginForm}>
                     <h2 className={css.loginTitle}>User autorisation</h2>
                     <label className={css.loginLabel}>
-                        Email
+                        Email:
                         <input className={css.loginInput} type="email" name='email' placeholder='test@mail.com'/>
                     </label>
                     <label className={css.loginLabel}>
-                        Password
+                        Password:
                         <input className={css.loginInput} type="password" name='password'/>
+                    </label>
+                    <label className={css.loginLabel}>
+                        Repeat the password:
+                        <input className={css.loginInput} type="password" name='passwordRepeat'/>
                     </label>
                     <button className={css.loginBtn}>Submit</button>
                 </form>
